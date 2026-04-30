@@ -1,0 +1,6 @@
+{
+  "name": "TenderGo Backend",
+  "description": "Government tender search and tracking API using Cloudflare Workers and D1.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

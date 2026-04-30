@@ -1,0 +1,6 @@
+# Cloudflare Workers Secrets
+# 注意：正式環境請使用 wrangler secret put <KEY>
+# Local 開發時，Wrangler 會讀取此變數
+
+CORS_ORIGIN="https://tendergo-taiwan.pages.dev"
+PCC_BASE_URL="https://web.pcc.gov.tw"

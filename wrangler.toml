@@ -1,0 +1,17 @@
+name = "tendergo-backend"
+main = "src/index.ts"
+compatibility_date = "2024-04-03"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "tendergo-db"
+database_id = "00000000-0000-0000-0000-000000000000" # 需要替換為實際 ID
+migrations_dir = "migrations"
+
+[vars]
+CORS_ORIGIN = "https://tendergo-taiwan.pages.dev"
+PCC_BASE_URL = "https://web.pcc.gov.tw"
+
+[dev]
+port = 3000
+ip = "0.0.0.0"
